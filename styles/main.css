@@ -1,0 +1,99 @@
+html,
+body {
+  background-color: #0c0c0c;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+.btnAction {
+  width: 100%;
+  border: 1px solid white;
+  text-align: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.btnAction:hover {
+  background-color: white;
+  color: black;
+}
+.titlebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 20px;
+  background-color: #181d64;
+  color: #ffffff;
+  text-align: right;
+  padding-right: 3px;
+  padding-left: 3px;
+  line-height: 20px;
+}
+#gameBoard > .titlebar {
+  text-align: left;
+}
+.panel {
+  border: 1px solid #181d64;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+.content {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+}
+#gameBoard {
+  background-image: url("../images/0.jpg");
+  background-position: 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -600px;
+  margin-top: -400px;
+  box-sizing: border-box;
+  width: 1200px;
+  height: 800px;
+}
+#gameBoard #roomInfo {
+  position: absolute;
+}
+#gameBoard #pnlText {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  width: 800px;
+  top: 350px;
+  font-size: 1em;
+}
+#gameBoard #pnlButtons {
+  position: absolute;
+  right: 5px;
+  top: 350px;
+  width: 360px;
+  bottom: 5px;
+}
+#gameBoard #pnlCharacter {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 360px;
+  height: 310px;
+}
+#pnlPlayerInfo {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+  display: block;
+  color: white;
+  border-radius: 5px;
+}

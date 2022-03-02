@@ -1,0 +1,22 @@
+{
+    "name": "Dark Alley",
+    "summary": "To the east you hear the hum of cars and citizens going about their lives.",
+    "description": "You are surrounded by trash, some of which is actually in the dumpster.",
+    "actions": [
+        {
+            "name": "Look Around",
+            "code": "LA",
+            "requiredItems": [],
+            "requiredStates": ["laying","sitting"],
+            "restrictedStates": ["blind"]
+        },
+        {
+            "name": "Go West",
+            "code": "WARP",
+            "target": 0,
+            "requiredItems": [],
+            "requiredStates": [],
+            "restrictedStates": []
+        }
+    ]
+}

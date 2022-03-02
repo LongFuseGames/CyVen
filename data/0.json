@@ -1,0 +1,22 @@
+{
+    "name": "Dark Alley",
+    "summary": "The dark alley looks like any other in the city.",
+    "description": "The tall buildings rise up on either side of you like cold, lifeless monoliths. The subtle smell of garbage and piss rise and fall with the wind.",
+    "actions": [
+        {
+            "name": "Look Around",
+            "code": "LA",
+            "requiredItems": [],
+            "requiredStates": ["laying","sitting"],
+            "restrictedStates": ["blind"]
+        },
+        {
+            "name": "Go East",
+            "code": "WARP",
+            "target": 1,
+            "requiredItems": [],
+            "requiredStates": [],
+            "restrictedStates": []
+        }
+    ]
+}
