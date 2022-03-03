@@ -2,6 +2,7 @@
     "name": "Dark Alley",
     "summary": "The dark alley looks like any other in the city.",
     "description": "The tall buildings rise up on either side of you like cold, lifeless monoliths. The subtle smell of garbage and piss rise and fall with the wind.",
+    "background": "0.jpg",
     "actions": [
         {
             "name": "Look Around",

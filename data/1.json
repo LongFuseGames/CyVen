@@ -2,6 +2,7 @@
     "name": "Dark Alley",
     "summary": "To the east you hear the hum of cars and citizens going about their lives.",
     "description": "You are surrounded by trash, some of which is actually in the dumpster.",
+    "background": "0.jpg",
     "actions": [
         {
             "name": "Look Around",

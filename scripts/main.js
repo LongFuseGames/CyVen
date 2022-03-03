@@ -1,5 +1,11 @@
 let rooms = {};
 rooms.current = {};
+let baseurl = '';
+if (window.location.hostname === 'github.com') {
+    baseurl = '/CyVen'
+} else {
+    baseurl = '../'
+}
 
 console.log("ready");
 refreshPlayerInfo();
