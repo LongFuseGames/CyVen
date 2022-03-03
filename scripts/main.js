@@ -2,7 +2,7 @@ let rooms = {};
 rooms.current = {};
 let baseurl = '';
 console.log(`Loaded from ${window.location.hostname}`);
-if (window.location.hostname === 'longfusegames.github.io') {
+if (window.location.hostname == 'longfusegames.github.io') {
     baseurl = '/CyVen'
     console.log("Loaded from github, setting baseurl");
 } else {
