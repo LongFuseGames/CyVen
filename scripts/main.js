@@ -1,8 +1,9 @@
 let rooms = {};
 rooms.current = {};
 let baseurl = '';
-if (window.location.hostname === 'github.com') {
+if (window.location.hostname === 'github.io') {
     baseurl = '/CyVen'
+    console.log("Loaded from github, setting baseurl");
 } else {
     baseurl = '../'
 }
