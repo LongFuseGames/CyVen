@@ -21,7 +21,7 @@ function loadRoom (roomnum) {
         console.log(`Loaded room "${rooms.current.name}"`);
         $('#txtOutput').html(rooms.current.summary);
         $('#pnlText .titlebar').html(rooms.current.name);
-        $('#gameBoard').css('background-image', 'url("../images/0.jpg")');
+        $('#gameBoard').css('background-image', `url("${baseurl}/images/0.jpg")`);
         populateActions();
         player.room = rooms.current;
     });
