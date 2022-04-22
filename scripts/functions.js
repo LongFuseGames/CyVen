@@ -18,9 +18,11 @@ function loadRoom (roomnum) {
         'dataType': "json",
     }).done(function(data) {
         rooms.current = data;
-        console.log(`Loaded room "${rooms.current.name}"`);
-        $('#txtOutput').html(rooms.current.summary);
-        $('#pnlText .titlebar').html(rooms.current.name);
+        //console.log(`Loaded room "${rooms.current.name}"`);
+        //$('#txtOutput').html(rooms.current.summary);
+        twRoomDescrip.deleteAll(1).typeString(rooms.current.summary).start();
+        //$('#pnlText .titlebar').html(rooms.current.name);
+        twRoomName.deleteAll().typeString(rooms.current.name).start();
         $('#gameBoard').css('background-image', `url("${baseurl}/images/0.jpg")`);
         populateActions();
         player.room = rooms.current;
